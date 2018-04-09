@@ -1,0 +1,15 @@
+spring:
+  application:
+   name: config-server
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/LingCheng0821/SpringcloudConfig/
+          searchPaths: respo
+          username: 1015880012@qq.com
+          password: MAXIAHERO0206yun
